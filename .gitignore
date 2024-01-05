@@ -1,0 +1,66 @@
+# Node
+node_modules
+npm-debug.log
+package-lock.json
+yarn-debug.log
+yarn-error.log
+lerna-debug.log
+
+# Editors
+.idea
+.project
+.settings
+*.iml
+.vscode/settings.json
+.history
+
+# TypeScript
+*.map
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Mac
+.DS_Store
+**/.DS_Store
+
+# Tests
+.coverage
+.e2e
+local.log
+rerun.sh
+results
+
+# Playwright
+test-results/
+playwright-report/
+test/playwright/.cache/
+
+# Pipeline
+git/
+**/.deploy
+
+# Packages
+.build
+.dist
+.tmp
+build
+coverage
+dist
+dist-cdn
+dist-ssr
+tmp
+*.local
+
+# Browserstack
+browserstack.err
+
+# Environment
+.env
+!.env.local
+
+# Turborepo
+.turbo
+
+migration-result.json
