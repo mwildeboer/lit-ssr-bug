@@ -1,6 +1,6 @@
 import { LitElement, html } from "lit";
 import { customElement } from "lit/decorators.js";
-import { ref, createRef } from "lit/directives/ref.js";
+import { ref, createRef, Ref } from "lit/directives/ref.js";
 
 @customElement("working-test-component")
 export class WorkingTestComponent extends LitElement {
